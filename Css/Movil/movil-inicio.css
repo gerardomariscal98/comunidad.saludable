@@ -1,0 +1,143 @@
+:root {
+  --blanco-defecto: rgb(241, 241, 241);
+  --color-logo-degradado-azul: #06083b;
+  --color-logo-degradado-fuxia: #ba4ad0;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main .main-primera-seccion {
+  margin-top: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .main-primera-seccion h2 {
+  font-size: 2.1rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  text-align: center;
+}
+
+main .main-primera-seccion p {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  text-align: center;
+}
+
+main .main-primera-seccion button {
+  color: var(--blanco-defecto);
+  border: none;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background: linear-gradient(to right, var(--color-logo-degradado-azul), var(--color-logo-degradado-fuxia));
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/*Segunda seccion*/
+
+main .main-segunda-seccion {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to right, var(--color-logo-degradado-azul), var(--color-logo-degradado-fuxia));
+  margin-top: 30px;
+}
+
+main .main-segunda-seccion .main-segunda-seccion-contenedor {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+main .main-segunda-seccion .main-segunda-seccion-contenedor img {
+  display: inline-block;
+  margin-top: 20px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .main-segunda-seccion .main-segunda-seccion-contenedor h2 {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--blanco-defecto);
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/*Tercera seccion*/
+
+main .main-tercera-seccion {
+  width: 100%;
+  height: auto;
+}
+
+main .main-tercera-seccion .main-tercera-seccion-contenedor {
+  width: 90%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .main-tercera-seccion .main-tercera-seccion-contenedor img {
+  width: 200px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+main .main-tercera-seccion .main-tercera-seccion-contenedor h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 2.1rem;
+}
+
+main .main-tercera-seccion .main-tercera-seccion-contenedor p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-top: 20px;
+  line-height: 1.7rem;
+}
+
+/*FOOTER*/
+
+footer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to right, var(--color-logo-degradado-azul), var(--color-logo-degradado-fuxia));
+  color: var(--blanco-defecto);
+  margin-top: 30px;
+}
+
+footer .footer-primera-seccion {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .footer-primera-seccion p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+footer .footer-primera-seccion .footer-segunda-seccion {
+  text-align: center;
+  margin-top: 40px;
+}
